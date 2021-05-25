@@ -1,4 +1,7 @@
 
+:root {
+  --magenta: #9f1561;
+}
 
 html {
   box-sizing: border-box;
@@ -8,3 +11,162 @@ html {
 }
 
 
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+#everything {
+  width: 100%;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  color: var(--magenta)
+}
+
+a {
+  color: inherit;
+}
+
+/* on desktop */
+@media not (max-width: 900px) {
+  .content {
+    max-width: 100rem;
+    margin: 0px auto;
+  }
+}
+
+.content {
+  text-align: justify;
+}
+
+.logo-content {
+  display: block;
+  max-height: 50vh;
+  width: 100%;
+  padding: 0px 1rem;
+  margin: 2rem auto;
+}
+
+/* menu */
+.menuentries a {
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2.4rem;
+}
+
+.menuentries .current {
+  color: var(--magenta);
+}
+
+.menuentries :hover {
+  text-decoration: underline;
+}
+
+/* menu on desktop */
+
+.menu.desktop-only .logo img {
+  height: 5rem;
+  margin: 1rem;
+}
+
+.menu.desktop-only {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.desktop-only .menuentries {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  margin: 0 1rem;
+  align-items: center;
+}
+
+/* menu on mobile */
+
+.menu.mobile-only {
+  position: fixed;
+  width: 100%;
+}
+
+#menubuttonbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  height: 5rem;
+  z-index: 100;
+  position: relative;
+  background: white;
+}
+
+.mobile-only .menuentries {
+  background: white;
+  z-index: 100;
+  position: relative;
+}
+
+/* on mobile */
+@media (max-width: 900px) {
+  .content {
+    padding-top: 5rem;
+  }
+}
+
+#menubuttonbar .logo, #menubuttonbar .logo img, #menubutton, #menubutton img {
+  height: 100%;
+}
+
+#menubutton {
+  margin-right: 2rem;
+}
+
+input#menuC:not(:checked) ~ .menuentries {
+  display: none;
+}
+input#menuC:not(:checked) ~ #menuhidelayer {
+  display: none;
+}
+
+input#menuC:checked ~ #menuhidelayer {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background-color: #00000033;
+  z-index: 10;
+}
+
+.mobile-only .menuentries a {
+  display: block;
+  text-align: center;
+  line-height: 1.4;
+}
+
+/* end menu */
+
+
+
+/* on desktop */
+@media not (max-width: 900px) {
+  .mobile-only.mobile-only.mobile-only.mobile-only.mobile-only.mobile-only.mobile-only.mobile-only.mobile-only.mobile-only.mobile-only.mobile-only.mobile-only {
+    display: none;
+  }
+}
+
+/* on mobile */
+@media (max-width: 900px) {
+  .desktop-only.desktop-only.desktop-only.desktop-only.desktop-only.desktop-only.desktop-only.desktop-only.desktop-only.desktop-only.desktop-only.desktop-only {
+    display: none;
+  }
+}

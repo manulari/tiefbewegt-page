@@ -4,37 +4,70 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>TIEF BEWEGT — Startseite</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat&display=swap" rel="stylesheet">
   <link href="css/normalize.css?h=7ffde343" rel="stylesheet" />
-  <link href="css/style.css?h=2c2faf26" rel="stylesheet" />
+  <link href="css/style.css?h=a7a94ff1" rel="stylesheet" />
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
 </head>
 <body>
-  <div class="page">
+  <div id="everything">
 
-    <div class="logo">Logo</div>
+    <div class="menu desktop-only">
+      <a class="logo" href="./"><img alt="www.tiefbewegt.at" src="images/logo.svg?h=0f512a0a"/></a>
+      <div class="menuentries">
+        
+        <a href="./" class="current">Start</a>
+        
+        <a href="einzeltherapie/" >Einzeltherapie</a>
+        
+        <a href="gruppen/" >Gruppen</a>
+        
+        <a href="ueber-mich/" >Über mich</a>
+        
+        <a href="rahmenbedingungen/" >Rahmenbedingungen</a>
+        
+        <a href="kontakt/" >Kontakt</a>
+        
+      </div>
+    </div>
 
-    <div class="menu">
-      
-      <a href="about-me/">About Me</a>
-      
-      <a href="kontakt/">Kontakt</a>
-      
-      <a href="./">Start</a>
-      
+    <div class="menu mobile-only">
+      <input id="menuC" type="checkbox" style="display: none;"/>
+      <label for="menuC" id="menuhidelayer"></label>
+      <div id="menubuttonbar">
+        <a class="logo" href="./"><img alt="www.tiefbewegt.at" src="images/logo.svg?h=0f512a0a"/></a>
+        <label id="menubutton" for="menuC"><img alt="☰ Menu" src="res/menu.svg?h=97c8eded"/></label>
+      </div>
+      <div class="menuentries">
+        
+        <a href="./" class="current">Start</a>
+        
+        <a href="einzeltherapie/" >Einzeltherapie</a>
+        
+        <a href="gruppen/" >Gruppen</a>
+        
+        <a href="ueber-mich/" >Über mich</a>
+        
+        <a href="rahmenbedingungen/" >Rahmenbedingungen</a>
+        
+        <a href="kontakt/" >Kontakt</a>
+        
+      </div>
     </div>
 
     <div class="content">
-      <h1>TIEF BEWEGT</h1>
+      <p><img alt="TIEF BEWEGT" src="/images/logo_text.svg" class="logo-content" /></p>
 <p>Seite im Aufbau...</p>
 <p>PRAXIS FÜR FOCUSING-ORIENTIERTE PSYCHOTHERAPIE</p>
-<p>Karola Reifetshamer
-Therapiezentrum Hyrtlgasse
-Hyrtlgasse 12
+<p>Karola Reifetshamer<br>
+Therapiezentrum Hyrtlgasse<br>
+Hyrtlgasse 12<br>
 1160 Wien</p>
-<p>0677-62770080
-info@tiefbewegt.at</p>
+<p>0677-62770080<br>
+<a href="mailto:info@tiefbewegt.at">info@tiefbewegt.at</a></p>
 
     </div>
 
