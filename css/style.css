@@ -143,6 +143,9 @@ a {
 #menubutton {
   margin-right: 2rem;
 }
+#menubuttonbar .logo {
+  margin-left: 2rem;
+}
 
 input#menuC:not(:checked) ~ .menuentries {
   display: none;
