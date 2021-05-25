@@ -111,6 +111,18 @@ a {
   background: white;
 }
 
+.logotext {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.logotext img {
+  margin: 0px 3rem;
+  width: 100%;
+  max-height: 50%;
+}
+
 .mobile-only .menuentries {
   background: white;
   z-index: 100;
