@@ -37,7 +37,7 @@ a {
 }
 
 /* on desktop */
-@media not (max-width: 900px) {
+@media not all and (max-width: 900px) {
   .content {
     max-width: 100rem;
     margin: 0px auto;
@@ -173,7 +173,7 @@ input#menuC:checked ~ #menuhidelayer {
 
 
 /* on desktop */
-@media not (max-width: 900px) {
+@media not all and (max-width: 900px) {
   .mobile-only.mobile-only.mobile-only.mobile-only.mobile-only.mobile-only.mobile-only.mobile-only.mobile-only.mobile-only.mobile-only.mobile-only.mobile-only {
     display: none;
   }
