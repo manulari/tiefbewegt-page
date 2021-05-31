@@ -84,6 +84,7 @@ a {
 
 .content {
   text-align: justify;
+  hyphens: auto;
 }
 
 .content .autor {
