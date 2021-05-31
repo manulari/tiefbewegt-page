@@ -2,6 +2,7 @@
 :root {
   --magenta: #9d1661;
   --blau: #3666b8;
+  --menubuttonbarheight: 6rem;
 }
 
 html {
@@ -179,7 +180,8 @@ h2.mobiletoptitle {
   justify-content: space-between;
   width: 100%;
   align-items: center;
-  height: 5rem;
+  height: var(--menubuttonbarheight);
+  padding-top: 1rem;
   z-index: 100;
   position: relative;
   background: white;
@@ -194,7 +196,7 @@ h2.mobiletoptitle {
 /* on mobile */
 @media (max-width: 900px) {
   .content {
-    padding-top: 5rem;
+    padding-top: var(--menubuttonbarheight);
     margin: 0 1em;
   }
 }
