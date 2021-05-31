@@ -170,6 +170,7 @@ h2.mobiletoptitle {
 @media (max-width: 900px) {
   .content {
     padding-top: 5rem;
+    margin: 0 1em;
   }
 }
 
