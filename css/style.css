@@ -79,16 +79,13 @@ a {
   .content {
     max-width: 70rem;
     margin: 0px auto;
+    text-align: justify;
   }
-}
-
-.content {
-  text-align: justify;
-  hyphens: auto;
 }
 
 .content .autor {
   font-size: 70%;
+  white-space: nowrap;
 }
 
 .content blockquote {
@@ -112,6 +109,10 @@ a {
   width: 70%;
   padding: 0px 1rem;
   margin: 2rem auto 4rem auto;
+}
+
+.content.ueber-mich {
+  text-align: left;
 }
 
 .content.kontakt {
