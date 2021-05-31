@@ -51,6 +51,13 @@ h3 {
   font-size: 1.5em;
 }
 
+hr {
+  color: var(--magenta);
+  margin-left: 25%;
+  margin-right: 25%;
+  border-style: dashed;
+}
+
 a {
   color: inherit;
 }
