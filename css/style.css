@@ -62,6 +62,17 @@ a {
   color: inherit;
 }
 
+.magenta {
+  color: var(--magenta);
+}
+
+.content img:not([class]) {
+  max-width: 90%;
+  display: block;
+  margin: 0px auto 3rem;
+  border-radius: 3rem;
+}
+
 /* on desktop */
 @media not all and (max-width: 900px) {
   .content {
@@ -100,6 +111,20 @@ a {
   padding: 0px 1rem;
   margin: 2rem auto 4rem auto;
 }
+
+.content.kontakt {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.logokontakt {
+  width: 25rem;
+  max-width: 80%;
+  display: block;
+  margin: 0 auto 5rem auto;
+}
+
 
 /* menu */
 .menuentries a {
