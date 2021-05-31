@@ -74,6 +74,10 @@ a {
   border-radius: 3rem;
 }
 
+.content p + p img:not([class]) {
+  margin-top: 3rem;  
+}
+
 /* on desktop */
 @media not all and (max-width: 900px) {
   .content {
