@@ -132,6 +132,12 @@ a {
   font-weight: bold;
 }
 
+.content.kontakt .pregdpr + p {
+  font-weight: normal;
+  font-size: 1.6rem;
+  color: #444;
+}
+
 .logokontakt {
   width: 25rem;
   max-width: 80%;
